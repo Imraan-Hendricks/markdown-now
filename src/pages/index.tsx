@@ -1,8 +1,15 @@
+import { MarkdownProvider } from '@/context/MarkdownContext';
+import { MarkdownInput } from '@/components/MarkdownInput';
+import { MarkdownPreview } from '@/components/MarkdownPreview';
+
 export default function Home() {
   return (
     <main>
-      <section>
-        <h1 className='text-h1'>Home</h1>
+      <section className='grid xl:grid-cols-2'>
+        <MarkdownProvider>
+          <MarkdownInput />
+          <MarkdownPreview />
+        </MarkdownProvider>
       </section>
     </main>
   );
