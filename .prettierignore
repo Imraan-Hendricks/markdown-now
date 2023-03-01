@@ -38,9 +38,8 @@ next-env.d.ts
 /prisma/.env
 /prisma/dev.db
 /prisma/dev.db-journal
+/prisma/schema.prisma
 
-# cypress
-/cypress.env.json
-/cypress/downloads
-/cypress/videos
-/cypress/screenshots
+# custom
+/src/utils/env-utils.ts
+/src/lib/utils/env-utils.ts
