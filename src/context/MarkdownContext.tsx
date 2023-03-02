@@ -22,7 +22,7 @@ export const useMarkdown = () => {
   return context;
 };
 
-const initialState = `# Welcome to Markdown Now!
+const initialState = `# Created by Markdown Now!
 
 Markdown Now offers an intuitive editing experience that will make your work more efficient. 
 

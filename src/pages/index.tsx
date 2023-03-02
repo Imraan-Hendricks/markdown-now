@@ -1,16 +1,9 @@
-import { MarkdownProvider } from '@/context/MarkdownContext';
-import { MarkdownInput } from '@/components/MarkdownInput';
-import { MarkdownPreview } from '@/components/MarkdownPreview';
+import { Hero } from '@/components/Hero';
 
 export default function Home() {
   return (
     <main>
-      <section className='grid xl:grid-cols-2'>
-        <MarkdownProvider>
-          <MarkdownInput />
-          <MarkdownPreview />
-        </MarkdownProvider>
-      </section>
+      <Hero />
     </main>
   );
 }
