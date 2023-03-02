@@ -31,7 +31,7 @@ Markdown Now offers an intuitive editing experience that will make your work mor
 * Changes are rendered as you type
 * Full markdown support 
 
-Once you're happy with your markdown file, you can easily download it to use elsewhere by hovering or clicking on the preview.
+Once you're happy with your markdown file, you can easily download it to use elsewhere by clicking the download button at the bottom right.
 
 Happy editing with Markdown Now! 
 `;
