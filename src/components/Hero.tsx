@@ -6,10 +6,10 @@ export function Hero() {
     <section className='bg-gradient-to-r from-white via-white to-slate-400'>
       <div className='container mx-auto px-4 py-48 grid gap-24 animate-[fade-in_1000ms_ease]'>
         <div className='grid justify-center gap-4'>
-          <h1 className='text-h4-bold text-center'>
+          <h1 className='text-title text-center'>
             Welcome to <span className='text-slate-600'>Markdown</span> Now!
           </h1>
-          <p className='text-body1-bold text-gray-600 text-center mx-auto'>
+          <p className='text-subtitle text-gray-600 text-center mx-auto'>
             Write, Edit and Preview Markdown in Real Time with Markdown Now -
             Your Go-To Markdown Editor!
           </p>
@@ -33,7 +33,7 @@ export function Hero() {
           <img
             className='w-full block xl:hidden rounded-sm overflow-hidden'
             src='/markdown-hero-responsive.jpg'
-            alt='markdown-example'
+            alt='markdown-responsive-example'
           />
         </div>
       </div>
